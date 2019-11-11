@@ -5,9 +5,9 @@ I extended it to use [libphonenumber-js](https://www.npmjs.com/package/libphonen
 
 ## Setup
 
-### 1. Make sure you have Node.js and NPM installed
+1. Make sure you have Node.js and NPM installed
 
-### 2. Clone repository, build and run the container
+2. Clone repository, build and run the container
 
 ```bash
 git clone https://github.com/senglin/phone-validation.git
@@ -16,7 +16,7 @@ docker build -t phonenumber-validation .
 docker run -it --rm -p 3000:3000 phonenumber-validation
 ```
 
-### 3. Try out the following links on the browser which will result in `+12069876123`.
+3. Try out the following links on the browser which will result in `+12069876123`.
 
 ```
 http://localhost:3000/check/2069876123 
@@ -26,12 +26,12 @@ http://localhost:3000/check/+1(206)987-6123
 http://localhost:3000/check/+1(206)987-6123 
 http://localhost:3000/check/(206) 987-6123
 ```
-### 4. `Ctrl-C` to shut down the server.
+4. `Ctrl-C` to shut down the server.
 
-# Contributors
+## Contributors
 
 - Seng Lin Shee <senglin@users.noreply.github.com>
 
-# License
+## License
 
 MIT
