@@ -1,4 +1,4 @@
-# Phone Number Verification without Regular Expression
+# Phone Number Canonicalization Sample Application
 
 This demo is based off the [Phone Number Verification without Regular Expression](https://github.com/dkundel/phone-verification-form) project.
 I extended it to use [libphonenumber-js](https://www.npmjs.com/package/libphonenumber-js), which is based off Google's [libpphonenumber](https://github.com/google/libphonenumber).  The canonicalized output is of the [E126](https://en.wikipedia.org/wiki/E.164) standard.
