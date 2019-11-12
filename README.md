@@ -5,7 +5,7 @@ I extended it to use [libphonenumber-js](https://www.npmjs.com/package/libphonen
 
 ## Setup
 
-1. Make sure you have Node.js and NPM installed
+1. Make sure you have [Docker](https://docs.docker.com/v17.12/install/) installed.
 
 2. Clone repository, build and run the container
 

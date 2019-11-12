@@ -14,5 +14,6 @@ RUN apk add --no-cache --virtual .build-deps-yarn curl \
     && apk del .build-deps-yarn
 
 COPY . /app
+RUN yarn install
 EXPOSE 3000
-ENTRYPOINT ["npm", "start"]
+ENTRYPOINT ["yarn", "start"]
